@@ -1,0 +1,8 @@
+### DIRS ###
+django
+.vscode
+__pycache__
+
+### FILES ###
+monthly1/secret.json
+django.log
