@@ -1,0 +1,56 @@
+<div class="wrapper">
+    <nav id="sidebar">
+
+        <div id="dismiss">
+            <i class="fas fa-arror-left"></i>
+        </div>
+
+        <div class="sidebar-header">
+            <h3>EDA Navigation</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a href="#dataSub" data-toggle="collapse" aria-expanded="false">Data Load</a>
+                <ul class="collapse list-unstyled" id="dataSub">
+                    <li>
+                        <a href="#Package">Package</a>
+                    </li>
+                    <li>
+                        <a href="#Dataset">Dataset</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#desc">Describe</a>
+                <ul class="collapse list-unstyled" id="desc">
+                    <li>
+                        <a href="#describe">Describe</a>
+                    </li>
+                    <li>
+                        <a href="#corr">Correlation</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#featureSub">Features</a>
+                <ul class="collapse list-unstyled", id="featureSub">
+                    <li>
+                        <a href="#kda">KDA</a>
+                    </li>
+                    <li>
+                        <a href="#objects">Objects</a>
+                    </li>
+                    <li>
+                        <a href="#first">First Score</a>
+                    </li>
+                    <li>
+                        <a href="#gold">Gold</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
